@@ -307,7 +307,7 @@ export default defineConfig({
   manifest: {
     basePath: '/inns',
   },
-  base: '/inns',
-  // publicPath: './',
+  base: '/inns', // 根路由
+  publicPath: './', // 静态资源
   // outputPath: './dist/',
 });
