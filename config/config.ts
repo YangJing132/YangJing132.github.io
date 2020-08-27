@@ -305,9 +305,9 @@ export default defineConfig({
   ignoreMomentLocale: true,
   proxy: proxy[REACT_APP_ENV || 'dev'],
   manifest: {
-    basePath: '/inns',
+    basePath: '/',
   },
-  base: '/inns', // 根路由
+  base: '/', // 根路由
   publicPath: './', // 静态资源
   // outputPath: './dist/',
 });
