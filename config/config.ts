@@ -307,6 +307,6 @@ export default defineConfig({
   manifest: {
     basePath: '/',
   },
+  base: '/inns',
   outputPath: './dist/',
-  publicPath: './',
 });
