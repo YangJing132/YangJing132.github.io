@@ -308,6 +308,6 @@ export default defineConfig({
     basePath: '/',
   },
   base: '/', // 根路由
-  publicPath: './', // 静态资源
+  // publicPath: './', // 静态资源
   // outputPath: './dist/',
 });
