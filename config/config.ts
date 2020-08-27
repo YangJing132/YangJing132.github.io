@@ -308,6 +308,6 @@ export default defineConfig({
     basePath: '/',
   },
   base: '/inns',
-  publicPath: '/',
+  publicPath: './',
   outputPath: './dist/',
 });
