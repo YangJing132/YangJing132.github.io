@@ -307,4 +307,6 @@ export default defineConfig({
   manifest: {
     basePath: '/',
   },
+  outputPath: './dist/',
+  publicPath: './',
 });
