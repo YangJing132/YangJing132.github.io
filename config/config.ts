@@ -5,6 +5,9 @@ import proxy from './proxy';
 const { REACT_APP_ENV } = process.env;
 export default defineConfig({
   hash: true,
+  history: {
+    type: 'hash',
+  },
   antd: {},
   dva: {
     hmr: true,
